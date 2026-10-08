@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "Navanto": {
+      "type": "http",
+      "url": "https://app.navanto.co.uk/api/mcp/plugin",
+      "oauth": {
+        "clientId": "7hb6q3bvplmfpougngcoq443u5",
+        "callbackPort": 41731
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "navanto",
+  "displayName": "Navanto",
+  "version": "1416",
+  "description": "Work with your Navanto construction projects from Claude: tasks, approvals, site updates, orders, selections, the timeline and more, with Navanto's how-to guides built in.",
+  "author": {
+    "name": "Navanto",
+    "url": "https://navanto.co.uk"
+  },
+  "homepage": "https://navanto.co.uk",
+  "icon": "./icon.png",
+  "documentationUrl": "https://navanto.co.uk/docs/",
+  "supportUrl": "https://navanto.co.uk/support/",
+  "privacyPolicyUrl": "https://navanto.co.uk/privacy/",
+  "termsOfServiceUrl": "https://navanto.co.uk/terms/"
+}
