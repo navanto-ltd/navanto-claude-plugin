@@ -34,7 +34,7 @@ Every page has a public URL you may offer so the user can read the whole thing t
 - File: `ios-app.md`
 - Section: getting-started
 - Audience: team
-- About: How to get the iPhone app, sign in, and post to your projects from site.
+- About: How to get the iPhone app, sign in, post to your projects and check drawings from site.
 - Public page: https://navanto.co.uk/docs/ios-app/
 
 ### Roles and permissions
@@ -204,3 +204,11 @@ Every page has a public URL you may offer so the user can read the whole thing t
 - Audience: team
 - About: The chat assistant and the AI features around Navanto, and how to keep them in check.
 - Public page: https://navanto.co.uk/docs/navantoai/
+
+### Navanto in Claude
+
+- File: `navanto-in-claude.md`
+- Section: ai
+- Audience: team
+- About: Connect your own Claude to Navanto, so it can read and work on your projects with your access.
+- Public page: https://navanto.co.uk/docs/navanto-in-claude/

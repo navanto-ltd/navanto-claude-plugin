@@ -7,7 +7,7 @@ audience: team
 date: 2026-08-20
 ---
 
-The Drawings page is the project's drawing register. Each drawing carries its title and code, and collects revisions; each revision is one issue of the drawing, with its own file, label and status. Anyone on your team can manage drawings; your client only ever sees approved ones.
+The Drawings page is the project's drawing register. Each drawing carries its title and code, and collects revisions; each revision is one issue of the drawing, with its own file, label and status. Anyone on your team can manage drawings; your client only ever sees approved ones. Your team can also read the register on site in the [iPhone app](/docs/ios-app/#drawings).
 
 ## Revisions
 

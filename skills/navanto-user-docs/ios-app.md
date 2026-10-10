@@ -1,6 +1,6 @@
 ---
 title: Navanto on your iPhone
-description: How to get the iPhone app, sign in, and post to your projects from site.
+description: How to get the iPhone app, sign in, post to your projects and check drawings from site.
 section: getting-started
 order: 2
 audience: team
@@ -22,6 +22,12 @@ Sign in with the same email address and password you use on the web; there's no 
 ## Posts
 
 The **Projects** tab lists every project you're a member of; open one to get to its posts, which are the same posts as on the web, with anything you send from site there for the office straight away. The **+** button takes a photo with the camera or attaches photos and files, **@** mentions someone, and swiping a message replies in its thread.
+
+## Drawings
+
+Open a project and tap **Drawings** to see its drawing register, in the same sections as on the web; the phone only reads the register, so adding and changing drawings stays on the web. The register opens on **Approved**, which shows each drawing's approved revisions and hides any drawing that has none, so what you build from on site is what has been signed off; switch to **All Drawings** to see every revision whatever its status. If a drawing has a newer revision that isn't approved yet, its page tells you so.
+
+Tap a drawing to see its revisions, then **Open Drawing** to read the latest sheet full screen, or tap any revision to open that one instead; **Share** sends the file on from there.
 
 ## NavantoAI
 
