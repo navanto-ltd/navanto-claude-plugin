@@ -7,9 +7,9 @@ audience: team
 date: 2026-09-14
 ---
 
-The **Files** page is the one place to browse every file across your projects: a folder per project, and inside it a folder for each part of Navanto the file came from — Approvals, Tasks, Drawings, Snagging, Contracts, Posts, Orders and Client Portal. Clicking a file opens it, and an approval's attachments carry an action to open the approval itself.
+The **Files** page is the one place to browse every file across your projects: a folder per project, and inside it a folder for each part of Navanto the file came from — Approvals, Tasks, Drawings, Snagging, Contracts, Posts, Site Updates, Orders and Client Portal. Clicking a file opens it, and an approval's attachments carry an action to open the approval itself.
 
-There is no upload button here, and that is the point: files arrive by being attached to the thing they belong to — a [task](/docs/tasks/), an [approval](/docs/approvals/), a [drawing](/docs/drawings/) revision, a snag, the contract, a post, or the PDF of a purchase [order](/docs/orders/) the moment it is sent — and the Files page is where they all surface. To add a file, attach it where it belongs. Photos on [site updates](/docs/site-updates/) live with the updates themselves rather than here.
+There is no upload button here, and that is the point: files arrive by being attached to the thing they belong to — a [task](/docs/tasks/), an [approval](/docs/approvals/), a [drawing](/docs/drawings/) revision, a snag, the contract, a post, a photo on a [site update](/docs/site-updates/), or the PDF of a purchase [order](/docs/orders/) the moment it is sent — and the Files page is where they all surface. To add a file, attach it where it belongs.
 
 Deleting from the Files page is for administrators, with the usual confirm.
 

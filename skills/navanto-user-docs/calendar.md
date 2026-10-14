@@ -35,6 +35,12 @@ Whether an event repeats is decided when you create it, so a one-off can't be tu
 
 Changing how often a series repeats, or its end date, always applies to the whole series.
 
+## Showing an event on the timeline
+
+An event can also appear on the project's [Timeline](/docs/timeline/): a survey, an inspection, a skip delivery. The chip at the top of the event shows the track it sits on, such as **Kitchen › Fit**, or **Not on timeline**. Click it to choose a track and how the event shows: a **Note**, a **Delivery** or a **Key event**. For an event that isn't on the timeline yet, NavantoAI preselects both from the event and the work planned around it; click away to keep its picks, or press Escape to leave the event off.
+
+It shows in every week it spans and follows the event's dates, and a repeating event shows every occurrence on the same track. The chip only appears if your role includes Timeline and the project's timeline has at least one track. Moving an event to another project takes it off the timeline.
+
 ## What your client sees
 
 Each event carries a **Visible to client** setting, off by default, and that is the whole rule: the portal calendar shows exactly the events marked visible, read-only. Marking an event visible — and any later change to an event your client can see — needs the [Client portal](/docs/roles-and-permissions/) permission, because it changes what your client reads. Client-visible events carry an eye icon on your calendar so you can tell at a glance.

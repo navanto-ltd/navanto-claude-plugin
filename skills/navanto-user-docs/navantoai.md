@@ -11,7 +11,7 @@ NavantoAI is the assistant built into Navanto. On the **NavantoAI Chat** page yo
 
 ## Chatting
 
-Ask in plain words and the answer streams back. You can attach files, up to 5 per message of 8MB each, and the assistant can hand files back to you as downloads, and show photos from your projects.
+Ask in plain words and the answer streams back. You can attach any file, up to 10 per message, and the assistant can hand files back to you as downloads, and show photos from your projects.
 
 Before it changes anything, it asks: it describes exactly what it is about to save, send or delete and waits for your agreement, and telling it to go ahead in your message counts as that agreement.
 

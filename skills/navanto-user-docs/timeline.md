@@ -21,6 +21,10 @@ Clicking a week opens that week's panel: a note of what's happening, and chips f
 
 A confirmed [order](/docs/orders/) shared with the timeline shows as a delivery in the week it's expected, on the track chosen for it: a truck on the week, the **Delivery** chip shown on, and in the week's panel a line such as "Apex Joinery's delivery of items from Kitchen refit" with the exact day it's expected and the items coming, so everyone on the timeline can see when deliveries are due on site. It doesn't make the week active or change the week's own note. The order is where it's managed — change its expected date and the delivery moves with it — so the chip can't be switched off here; if your role includes Procurement, the order number links straight to it. The project's [risk briefing](/docs/projects/#risk-briefings) reads each delivery against the work planned on its track, and can flag an order confirmed for after that work starts.
 
+## Events from the calendar
+
+A [calendar](/docs/calendar/) event put on the timeline shows on its track in every week it spans, as a note, a delivery or a key event. The week's panel lists it under **Events** with when it happens, and **Open event** opens it if your role includes Calendar. A **Delivery** or **Key event** chip set by an event shows on and can't be switched off here; change it on the event. **Active**, **Variation** and **Delay** stay with the week, so an event never lights up a week or marks it disrupted.
+
 ## Disruptions
 
 A week can carry one of two disruption marks: **Variation**, for a change in scope, or **Delay**, for slippage — bad weather and the like. A variation shows as a dashed border, a delay as hatching, so a troubled stretch of programme is visible at a glance. Disruptions also feed the project's [risk briefing](/docs/projects/).
