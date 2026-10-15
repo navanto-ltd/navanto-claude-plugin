@@ -34,7 +34,7 @@ Every page has a public URL you may offer so the user can read the whole thing t
 - File: `ios-app.md`
 - Section: getting-started
 - Audience: team
-- About: How to get the iPhone app, sign in, post to your projects and check drawings from site.
+- About: How to get the iPhone app, sign in, post to your projects, keep site updates going and check drawings from site.
 - Public page: https://navanto.co.uk/docs/ios-app/
 
 ### Roles and permissions

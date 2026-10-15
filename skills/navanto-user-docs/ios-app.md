@@ -1,10 +1,10 @@
 ---
 title: Navanto on your iPhone
-description: How to get the iPhone app, sign in, post to your projects and check drawings from site.
+description: How to get the iPhone app, sign in, post to your projects, keep site updates going and check drawings from site.
 section: getting-started
 order: 2
 audience: team
-date: 2026-09-06
+date: 2026-10-14
 ---
 
 Navanto has an iPhone app, so whoever is on site can read and post to a project without opening a browser.
@@ -22,6 +22,12 @@ Sign in with the same email address and password you use on the web; there's no 
 ## Posts
 
 The **Projects** tab lists every project you're a member of; open one to get to its posts, which are the same posts as on the web, with anything you send from site there for the office straight away. The **+** button takes a photo with the camera or attaches photos and files, **@** mentions someone, and swiping a message replies in its thread.
+
+## Site updates
+
+Open a project and tap **Site Updates** to see its [site updates](/docs/site-updates/) grouped by week, with this week marked **Current** and NavantoAI's summary over each week, as on the web. **New Site Update** writes one: a note, up to 20 photos from **Take Photo** or **Photo Library**, and the [timeline](/docs/timeline/) phases it belongs to. Long press one of your own updates to edit or delete it; an administrator can delete anyone's, and deleting an update takes its photos out of any client update using them.
+
+If your [role](/docs/roles-and-permissions/) includes Client portal, you can put the week's client update together on the phone too. **Create client update** on a week opens it: choose up to 20 of that week's photos, tag the phases, and write the description or tap **Draft with AI** to have NavantoAI draft one for you to edit. **Send** asks you to confirm, because it goes live on your client's portal and emails them; after that, the **⋯** menu on the client update lets you **Edit**, **Revoke** or **Re-send** it, and its author or an administrator can delete it once it's revoked.
 
 ## Drawings
 
