@@ -13,9 +13,11 @@ A selection puts choices to your client: fittings, finishes, anything where they
 
 A selection has a name, a VAT rate, an optional budget and a decision deadline. Inside it are sections, one per category with an optional delivery fee; items within each section, with a quantity; and options on each item, picked from the catalogue. Everything saves as you build — a new selection exists from the moment you name it.
 
-Options can carry a short label, such as Budget or Premium, to say how they differ. A product can only be offered once per item, and archived products stay out of the picker. If an option's product is **Bespoke** it has no catalogue price, so a price field appears on the option itself; that is where bespoke prices are set.
+Options can carry a short label, such as Budget or Premium, to say how they differ. A product can only be offered once per item, and archived products stay out of the picker.
 
-The summary rail also shows your margin on the products: the lowest and highest the options allow, and the margin of whatever is pencilled in or, once sent, chosen. Each option card shows its own margin beside the price. Items without a cost or price are left out, and the rail says so. Once a signed-off selection has [orders](/docs/orders/) on it, the rail adds its margin after orders, so you can see what ordering more, or dearer, than the selection assumed has cost you.
+Each option starts with the product's catalogue price and description, and you can change either for this selection alone: open the option and type a different client price to raise or lower your margin, or reword or clear its description. Neither touches the product in your catalogue. Whichever you change stays as you set it when the catalogue changes, while the other keeps following the catalogue; **Use it** under the price and **Use the product's description** under the text put the catalogue values back. A **Bespoke** product has no catalogue price, so its option's price stays empty until you enter one.
+
+The summary rail also shows your margin on the products: the lowest and highest the options allow, and the margin of whatever is pencilled in or, once sent, chosen. Each option shows its own margin beside its price, and clicking an option opens it to change its description, client price and label. Items without a cost or price are left out, and the rail says so. Once a signed-off selection has [orders](/docs/orders/) on it, the rail adds its margin after orders, so you can see what ordering more than the selection assumed has cost you.
 
 ## Sending it
 
@@ -29,7 +31,7 @@ You can still edit an open selection after sending, right up until sign-off or t
 
 On their portal the client works through a wizard, one step per category and a review step at the end, choosing an option per item. Every choice saves as they click it, so they can come back to it over days, and the deadline shows on the selection, turning amber close to the day and red past it.
 
-What they see of each product is its name — or the [client name](/docs/suppliers-and-products/) you gave it — plus its photo, price and the option's label, never your cost, margin, supplier or the catalogue description. These are a snapshot taken when the selection last saved, so catalogue changes only reach a sent selection when you next edit it, and a signed-off selection never moves again. Cost is snapshotted the same way, so a signed-off selection's margin never moves either.
+What they see of each product is its name — or the [client name](/docs/suppliers-and-products/) you gave it — plus its photo, description, price and the option's label, never your cost, margin or supplier. These are a snapshot taken when the selection last saved, so catalogue changes only reach a sent selection when you next edit it, and never an option whose price or description you changed, and a signed-off selection never moves again. Cost is snapshotted the same way, so a signed-off selection's margin never moves either.
 
 **Submit & sign off** is their final step. It shows the total, warns that their choices will be locked, and once confirmed the selection is read-only for good and lands on the Approved tab as one contract item for the whole selection, named after it.
 
