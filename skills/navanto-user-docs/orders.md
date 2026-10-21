@@ -19,7 +19,7 @@ Every order gets a sequential PO number - PO-0001, PO-0002 and so on - which is 
 
 ## Starting an order from scratch
 
-Not everything you buy comes out of a selection. **New order** under Procurement › Orders asks for a project and a supplier, and lands you on a draft order with no lines. **Add line** opens that supplier's products, exactly as on any other order. An order needs at least one line before it can be sent or marked as sent, and any line can be removed, including the last one.
+Not everything you buy comes out of a selection. **New order** under Procurement › Orders asks for a project and a supplier, and lands you on a draft order with no lines. **Add line** opens that supplier's products, exactly as on any other order. An order needs at least one line before it can be sent or marked as sent, and any line can be deleted, including the last one.
 
 An order can be pointed at a selection afterwards, whether or not it started from one. **Link to a selection** beside the Selection label on the order page offers the signed-off selections on the order's own project; **Change** lets you swap or remove the link on any order that hasn't been cancelled - even one already sent, since the link is your bookkeeping and never appears on the PO. Each change is recorded in the order's log.
 
@@ -31,7 +31,9 @@ Each item counts what you have ordered at the order's cost, plus the selection's
 
 ## The order page
 
-An order holds its supplier, project and any linked selection, a delivery address and contact, an optional required-by date, the buyer contact, a message to the supplier, and its lines. Everything saves as you type while the order is a Draft. Removed a line by mistake, or need something extra? **Add line** under the lines opens the product picker, showing that supplier's products; the line arrives with the product's code, unit and cost filled in.
+An order holds its supplier, project and any linked selection, a delivery address and contact, an optional required-by date, the buyer contact, a message to the supplier, and its lines. Everything saves as you type while the order is a Draft. Removed a line by mistake, or need something extra? **Add line** under the lines opens the product picker, showing that supplier's products; the line arrives with the product's code, unit and cost filled in. For something that isn't in the supplier's catalogue, such as a fitting charge, **Add custom line** in the picker gives you a line to describe yourself; if your search found nothing, it offers to use what you typed.
+
+A custom line, or a bespoke product, arrives without a cost: enter its unit cost on the order. An order can't be sent or marked as sent until every line has one.
 
 Every order across every project lives under **Procurement › Orders**. Each signed-off selection also links to its own orders.
 
