@@ -11,7 +11,7 @@ The Approved tab of a project's Contract holds what the client has agreed to pay
 
 ## Contract items
 
-**New contract item** creates a line with a title, a price excluding VAT, a VAT rate, a description and an attachment. Items from an approved [variation](/docs/variations/) or a signed-off [selection](/docs/selections/) arrive here on their own, badged with where they came from.
+**New contract item** creates a line with a title, a price excluding VAT, a VAT rate, a description and an attachment. Items from an approved [variation](/docs/variations/) or a signed-off [selection](/docs/selections/) arrive here on their own, badged with where they came from. Their price and VAT rate are what the client agreed, so they can't be changed here; you can still edit its title, description and attachment, and you give it a payment schedule, or for a credit from an omitted item, choose the payment it applies to.
 
 The VAT rate is 20%, 5%, 0% or No VAT. 0% and No VAT are not the same thing: 0% applies VAT at the zero rate, No VAT means the line sits outside VAT; pick the one your accountant would.
 
@@ -25,7 +25,7 @@ A payment's state (not due yet, upcoming, due, overdue or paid) is worked out fr
 
 ## Credits
 
-**New credit** records money coming off what the client owes: entered as a positive amount, held as a negative line. Apply it to one unpaid stage payment, which then shows a due-after-credits figure, or leave it **On account (not applied)** until you know where it belongs. A credit must be given the same VAT rate as the item it is applied to, or it cannot be applied at all; it never carries stage payments of its own, and it applies within its own project only.
+**New credit** records money coming off what the client owes: entered as a positive amount, held as a negative line. Apply it to one unpaid stage payment, which then shows a due-after-credits figure, or leave it **On account (not applied)** until you know where it belongs. A credit can only be applied to an item with the same VAT rate, so a credit from a variation, whose rate is fixed, is offered only payments at that rate when you apply it; it never carries stage payments of its own, and it applies within its own project only.
 
 > A credit on account reduces the contract value but sits outside the payment forecast until it is applied to a stage payment.
 
