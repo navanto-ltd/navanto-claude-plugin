@@ -38,3 +38,5 @@ A client user belongs to one project and only ever sees that project's portal; t
 The Account page under Settings holds your personal details and a change-password option, along with **log out all sessions**, which ends your current session and stops other devices signing back in automatically.
 
 On the Notifications tab, notification preferences are a list of notification types, each with an in-app and an email toggle. Set them the way you want and press **Save preferences**.
+
+Emails wait a few minutes before they go, so a project's messages arrive together in one email once the conversation goes quiet, and anything you have already seen in Navanto is left out.
