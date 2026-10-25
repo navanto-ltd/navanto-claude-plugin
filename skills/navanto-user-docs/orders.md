@@ -19,7 +19,7 @@ Every order gets a sequential PO number - PO-0001, PO-0002 and so on - which is 
 
 ## Starting an order from scratch
 
-Not everything you buy comes out of a selection. **New order** under Procurement › Orders asks for a project and a supplier, and lands you on a draft order with no lines. **Add line** opens that supplier's products, exactly as on any other order. An order needs at least one line before it can be sent or marked as sent, and any line can be deleted, including the last one.
+Not everything you buy comes out of a selection. **New order** on the Orders page asks for a project and a supplier, and lands you on a draft order with no lines. **Add line** opens that supplier's products, exactly as on any other order. An order needs at least one line before it can be sent or marked as sent, and any line can be deleted, including the last one.
 
 An order can be pointed at a selection afterwards, whether or not it started from one. **Link to a selection** beside the Selection label on the order page offers the signed-off selections on the order's own project; **Change** lets you swap or remove the link on any order that hasn't been cancelled - even one already sent, since the link is your bookkeeping and never appears on the PO. Each change is recorded in the order's log.
 
@@ -35,7 +35,7 @@ An order holds its supplier, project and any linked selection, a delivery addres
 
 A custom line, or a bespoke product, arrives without a cost: enter its unit cost on the order. An order can't be sent or marked as sent until every line has one.
 
-Every order across every project lives under **Procurement › Orders**. Each signed-off selection also links to its own orders.
+Every order across every project lives under **Orders** in the sidebar. Each signed-off selection also links to its own orders.
 
 ## Sending an order
 
@@ -68,11 +68,11 @@ The timeline follows the order from then on. Change the expected date and the de
 
 ## Logging calls, emails and notes
 
-Every status change writes its own entry in the order's log. **Log activity** on the order, or **Log** on a row under Procurement › Orders, adds a Call, Email or Note by hand. The log also feeds the project's activity feed.
+Every status change writes its own entry in the order's log. **Log activity** on the order, or **Log** on a row on the Orders page, adds a Call, Email or Note by hand. The log also feeds the project's activity feed.
 
 ## The chase list
 
-Procurement › Orders puts the orders that need attention at the top:
+The Orders page puts the orders that need attention at the top:
 
 - **Overdue** - the date has passed and the goods haven't arrived: the supplier's expected date once an order is Confirmed, or your required-by date while it's still Sent.
 - **Needs chasing** - Sent but not confirmed, and either it's been a week since sending or your required-by date is within the next week.
@@ -91,4 +91,4 @@ NavantoAI can read orders for you and keep them up to date: ask what's being del
 
 ## Who can do this
 
-Orders need the Procurement feature enabled on your role - see [Roles and permissions](/docs/roles-and-permissions/). Clients never see orders.
+You see orders when your role includes Orders, which brings Library with it - see [Roles and permissions](/docs/roles-and-permissions/). Clients never see orders.

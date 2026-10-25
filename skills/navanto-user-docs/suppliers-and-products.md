@@ -7,11 +7,11 @@ audience: team
 date: 2026-08-25
 ---
 
-Procurement holds your suppliers and your product catalogue: the companies you buy from and the items you offer to clients. Neither is visible to clients; when a product reaches a client through a [selection](/docs/selections/), they see its name — or the client name you gave it — plus its photo, price and the label you put on the option, nothing more.
+**Library** holds your suppliers and your product catalogue on its **Suppliers** and **Products** tabs: the companies you buy from and the items you offer to clients. Neither is visible to clients; when a product reaches a client through a [selection](/docs/selections/), they see its name — or the client name you gave it — plus its photo, price and the label you put on the option, nothing more.
 
 ## Suppliers
 
-The Suppliers page is a searchable list; search matches names, account references, websites, notes and contact details. Each supplier holds up to five contacts and links through to its products in the catalogue. A product's supplier is who an [order](/docs/orders/) is raised against, and its contacts are who that order is emailed to.
+The Suppliers tab is a searchable list; search matches names, account references, websites, notes and contact details. Each supplier holds up to five contacts and links through to its products in the catalogue. A product's supplier is who an [order](/docs/orders/) is raised against, and its contacts are who that order is emailed to.
 
 Only administrators can use **Add supplier** or edit and delete one; everyone else can browse.
 
