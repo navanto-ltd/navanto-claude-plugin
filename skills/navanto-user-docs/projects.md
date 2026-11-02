@@ -7,7 +7,7 @@ audience: team
 date: 2026-09-30
 ---
 
-A project is one job, and everything about that job lives inside it: [posts](/docs/posts/), [tasks](/docs/tasks/), [approvals](/docs/approvals/), [snagging](/docs/snagging/), the [calendar](/docs/calendar/), the [timeline](/docs/timeline/), [drawings](/docs/drawings/), [site updates](/docs/site-updates/), the [contract](/docs/contract-and-payments/) with its [variations](/docs/variations/) and [selections](/docs/selections/), and the [client portal](/docs/client-portal-setup/).
+A project is one job, and everything about that job lives inside it: [posts](/docs/posts/), [tasks](/docs/tasks/), [approvals](/docs/approvals/), [snagging](/docs/snagging/), the [calendar](/docs/calendar/), the [timeline](/docs/timeline/), [drawings](/docs/drawings/), [site updates](/docs/site-updates/), the [contract](/docs/contract-and-payments/) with its [variations](/docs/variations/) and [selections](/docs/selections/), the [finishes](/docs/finishes/) schedule, and the [client portal](/docs/client-portal-setup/).
 
 ## Creating a project
 

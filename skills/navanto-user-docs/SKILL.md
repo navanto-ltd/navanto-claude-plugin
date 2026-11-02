@@ -1,6 +1,6 @@
 ---
 name: navanto-user-docs
-description: Navanto's official user guide, covering how every screen and feature of the Navanto construction project management app works, including projects, tasks, approvals, drawings, files, posts, site updates, the timeline, selections, variations, contracts and payments, orders, snagging, roles and permissions, the iOS app and the client portal. Use it before answering from general knowledge whenever someone asks how to do something in Navanto, where to find or change something, why something isn't working or isn't showing up, or what their client or a colleague can or can't see.
+description: Navanto's official user guide, covering how every screen and feature of the Navanto construction project management app works, including projects, tasks, approvals, drawings, files, posts, site updates, the timeline, selections, finishes, variations, contracts and payments, orders, snagging, roles and permissions, the iOS app and the client portal. Use it before answering from general knowledge whenever someone asks how to do something in Navanto, where to find or change something, why something isn't working or isn't showing up, or what their client or a colleague can or can't see.
 ---
 
 # Navanto user documentation
@@ -132,6 +132,14 @@ Every page has a public URL you may offer so the user can read the whole thing t
 - Audience: team
 - About: Where every file on your projects ends up, why there is no upload button, and how files reach your client.
 - Public page: https://navanto.co.uk/docs/files/
+
+### Finishes
+
+- File: `finishes.md`
+- Section: projects
+- Audience: team
+- About: How to build a project's finishes schedule from a palette of coded finishes, room by room, and keep track of what is still to decide.
+- Public page: https://navanto.co.uk/docs/finishes/
 
 ### Suppliers and products
 
