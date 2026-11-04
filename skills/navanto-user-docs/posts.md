@@ -9,6 +9,8 @@ date: 2026-09-24
 
 Posts are the project's conversation, and they live in the activity feed on the project's [overview](/docs/projects/), with the composer at its foot. A post is text — up to 5 attached files if you need them — and anyone whose role includes Posts can write one.
 
+To make words bold or italic, or to turn lines into a bulleted list, select the text and choose from the bar that appears over it; ⌘B and ⌘I (Ctrl+B and Ctrl+I on Windows) work too, and a line you start with "- " becomes a bullet. On the iPhone app the same choices are in the menu that appears when you select text.
+
 > There is no edit, so read a post back before you send it. A post can be deleted — see below — but not changed once it's up.
 
 While a project's posts are on screen — the overview's feed on **All activity** or **All posts**, or a thread — its post notifications count as read: opening it clears them from the bell, and one that arrives while you're looking never lights the bell. Switching the feed to **Client posts**, or to the risk briefing on a phone, stops that.
