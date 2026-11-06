@@ -1,13 +1,13 @@
 ---
 title: Templates
-description: Reusable lists of tasks, drawings or timeline phases, and how to apply one to a project in one go.
+description: Reusable lists of tasks, drawings or timeline phases, room templates for your finishes schedule, and how to apply them to a project.
 section: projects
 order: 8
 audience: team
 date: 2026-09-01
 ---
 
-A template is a reusable list of names in order, nothing more: task titles and descriptions, drawing sheet titles, or timeline phase names. Applying one adds that list to a project in one go, so a standard job starts from your standard list instead of being typed in again. Templates live on the **Templates** tab in **Library**, with a filter for **Tasks**, **Drawings** and **Timelines**.
+A template is a reusable list of names in order, nothing more: task titles and descriptions, drawing sheet titles, or timeline phase names. Applying one adds that list to a project in one go, so a standard job starts from your standard list instead of being typed in again. Templates live on the **Templates** tab in **Library**, with a filter for **Tasks**, **Drawings**, **Timelines** and **Rooms**. [Room templates](#room-templates) work a little differently, so they have their own section below.
 
 ## Applying a template
 
@@ -23,8 +23,22 @@ What the apply screen asks for depends on the kind:
 
 ## Creating and editing templates
 
-The Templates tab is open to anyone whose role includes Library (see [roles and permissions](/docs/roles-and-permissions/)), and administrators are the ones who can change what's on it.
+The Templates tab is open to anyone whose role includes Library (see [roles and permissions](/docs/roles-and-permissions/)), and administrators are the ones who can change task, drawing and timeline templates.
 
 **Add template** starts a new one of whichever kind the filter is showing; give it a name and it exists from that moment. Then **Add task**, **Add drawing** or **Add phase** builds the list one row at a time: each row takes a name, and a task row a description as well. The arrows on a row move it up or down, and drawings and phases arrive on a project in the order you leave them in. Everything saves as you go.
 
 Deleting a row removes just that row; deleting the template removes every row in it with it.
+
+## Room templates
+
+Room templates are how your studio's rooms start on a project's [finishes schedule](/docs/finishes/). Your organisation begins with Kitchen, Bathroom, Bedroom, Living room, Utility room and External, and they're yours to change. Anyone whose role includes Library can edit them, and everything saves as you go.
+
+A room template has a name, a one-line description and groups of details. It holds no values and no finishes, only what each detail is. Click a detail to set its type:
+
+- **Finish** takes a finish from the project's palette.
+- **Spec** is free text. Add **suggestions** to offer values while someone types, such as Shaker or Flat slab; they guide the designer but never restrict them.
+- **Choice** takes one of its **options** and nothing else. Soft-close hinges and runners, for example, is a choice of Yes or No.
+
+**Add room** on a project lists your room templates for anyone who can use Finishes. The new room copies the template's groups and details, including each choice's options, and keeps no link to it, so editing or deleting a template never changes a room already made from it.
+
+To turn a well-built room into a template, right-click its tab and choose **Save as template**. You get a new template with the same groups and details and none of the values: a spec's value becomes one of its suggestions and a choice keeps its options. It opens here in Templates, ready to name.

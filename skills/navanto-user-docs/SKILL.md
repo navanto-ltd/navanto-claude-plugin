@@ -106,7 +106,7 @@ Every page has a public URL you may offer so the user can read the whole thing t
 - File: `templates.md`
 - Section: projects
 - Audience: team
-- About: Reusable lists of tasks, drawings or timeline phases, and how to apply one to a project in one go.
+- About: Reusable lists of tasks, drawings or timeline phases, room templates for your finishes schedule, and how to apply them to a project.
 - Public page: https://navanto.co.uk/docs/templates/
 
 ### Posts
