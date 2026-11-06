@@ -49,3 +49,21 @@ Click a value, type, and **Enter** saves it. **Add detail** adds one to a group,
 A schedule rarely starts complete, so Finishes keeps the gaps easy to find. A detail with no value is a gap, and **Decide later** marks one you're leaving open on purpose, with a note of what you're waiting on, set when you click the value: the client's choice of tile, say. Each room's tab counts how many of its details are specified, **Gaps only** lists the details still to settle from every room on one page, and search looks across every room at once. Either one swaps the room tabs for a line saying what you're looking at; **Show all rooms** takes you back.
 
 Everything saves as you go. On a [completed project](/docs/projects/) the schedule stays readable but nothing can be changed, and Finishes appears only for roles that include the Finishes [permission](/docs/roles-and-permissions/).
+
+## Issuing a room to your client
+
+Your client never sees the schedule you're working on. They see issued revisions: frozen copies of a room that you publish to their [portal](/docs/for-clients/#your-finishes) when it's ready. A room can go out with gaps, so you don't have to wait for it to be finished.
+
+Start by choosing what goes in. Click the eye on a detail, or right-click it and choose **Show to client**, and it turns green. **Visible to client** doesn't show the detail to anyone yet; it means the detail goes into the room's next issue. Only a detail with a value can be shared. **Share everything with a value**, in the room's menu, marks them all at once and tells you how many it skipped.
+
+**Issue to client** is the step that publishes. It tells you how many details the client will see and how many are left out, and each count opens into a list. **Client view** shows you the issue as your client will see it, and you can add a **Note for the client**. The room goes out as rev A, then rev B and so on, and your client sees only the latest revision of each room.
+
+> Issuing doesn't email or notify anyone, so tell your client yourself when there's something new to look at.
+
+Once a room is issued, your client's copy stays as it was. Changing a detail, or a palette finish it uses, changes your schedule and not theirs until you issue the room again, and so does hiding a detail: turning off its eye takes it out of the next issue, not out of the revision they already have. The room's tab shows its revision, or **Not issued yet**, and the date it was last issued sits above its groups. A shared detail that has changed since then, or that has been shared since then, carries a **not issued** chip.
+
+**Revoke rev B**, in the room's menu, deletes that latest revision. Your client goes back to the one before, or the room leaves their portal if there isn't one. A revoked revision can't be brought back, but you can issue the room again, and the new issue reuses its letter. Deleting a room that has been issued removes its revisions and takes it off the portal too.
+
+To check what your client has right now, turn on **Client view** at the top of the page, which swaps the schedule for their Finishes page.
+
+Sharing, issuing, revoking and **Client view** need the Client portal [permission](/docs/roles-and-permissions/). Without it you can work on the schedule as usual and shared details show a plain eye, but you can't change what's shared or delete a room that has been issued. On a completed project nothing more can be issued or revoked, and what's already issued stays on the portal.

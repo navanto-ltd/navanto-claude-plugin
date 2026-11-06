@@ -24,6 +24,7 @@ The temporary password lasts 7 days. If it has expired, or you cannot find the e
 - **Calendar**: dates your builder has marked for you.
 - **Snagging**: once the build reaches snagging, the list of items being put right.
 - **Contract**: your agreed contract items, any variations, and your selections.
+- **Finishes**: the finishes your builder has issued to you, room by room.
 - **Settings**, reached by clicking your name at the bottom of the sidebar: your details, password, notification preferences and your data export.
 
 You are emailed when a site update is first sent to you. Your builder can correct one, or take one down, after sending; the portal always shows the current state.
@@ -47,6 +48,12 @@ A selection is a set of choices your builder needs from you, such as fittings an
 ## Decisions made with your builder directly
 
 If you give your builder an answer in person or by phone, they can record it for you: a variation decision, or a selection sign-off. Either always appears on your portal marked as made on your behalf, with the name of the person who recorded it and the date. Your builder's team can also set selection choices with you as you go; it is the attributed sign-off that locks them.
+
+## Your finishes
+
+**Finishes** is there to read: each room your builder has issued to you, with its finishes shown by photo or colour, name and reference, its written specifications, and any note your builder added. Each room shows its revision and the date it was issued.
+
+You are looking at the latest issue rather than your builder's working schedule, so it changes only when your builder issues that room again, and they may still be deciding details you can't see here. You aren't emailed when a room is issued, so your builder will tell you when there's something new. A room appears once it has been issued; if your builder takes an issue back, you see the one before it, or the room goes until it's issued again.
 
 ## When the project finishes
 
