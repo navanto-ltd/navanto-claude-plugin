@@ -4,7 +4,7 @@ description: How to build a project's finishes schedule from a palette of coded 
 section: projects
 order: 12
 audience: team
-date: 2026-10-26
+date: 2026-11-07
 ---
 
 Finishes is the project's finishes schedule. You define each finish once in the project's **palette**, give it a code, then work through the rooms saying which finish or specification goes where. Rooms point at the palette rather than repeating it, so changing a finish once changes it in every room that uses it.
@@ -50,20 +50,28 @@ A schedule rarely starts complete, so Finishes keeps the gaps easy to find. A de
 
 Everything saves as you go. On a [completed project](/docs/projects/) the schedule stays readable but nothing can be changed, and Finishes appears only for roles that include the Finishes [permission](/docs/roles-and-permissions/).
 
-## Issuing a room to your client
+## Sharing a room with your client
 
-Your client never sees the schedule you're working on. They see issued revisions: frozen copies of a room that you publish to their [portal](/docs/for-clients/#your-finishes) when it's ready. A room can go out with gaps, so you don't have to wait for it to be finished.
+Your client never sees the schedule you're working on. They see the version of each room you last shared with their [portal](/docs/for-clients/#your-finishes), and a room can go out with gaps, so you don't have to wait for it to be finished.
 
-Start by choosing what goes in. Click the eye on a detail, or right-click it and choose **Show to client**, and it turns green. **Visible to client** doesn't show the detail to anyone yet; it means the detail goes into the room's next issue. Only a detail with a value can be shared. **Share everything with a value**, in the room's menu, marks them all at once and tells you how many it skipped.
+Start by choosing what goes in. While you work on the schedule nothing shows what your client gets, so it stays out of the way; open the panel described below and every detail gets an eye you click, green when it's shared, with **Show to client** and **Hide from client** in its right-click menu too. Only a detail with a value can be shared, and the eye on a group's heading shares every detail in that group that has a value. **Visible to client** doesn't show a detail to anyone straight away, because it only means the detail goes out the next time you share the room or send an update.
 
-**Issue to client** is the step that publishes. It tells you how many details the client will see and how many are left out, and each count opens into a list. **Client view** shows you the issue as your client will see it, and you can add a **Note for the client**. The room goes out as rev A, then rev B and so on, and your client sees only the latest revision of each room.
+A room you haven't shared yet says **Not shared with your client yet** above its groups, and **Share Kitchen** next to it opens the panel where you share it. The panel tells you how many details will be shared and how many aren't, and each count opens into a list where **Hide** or **Share** changes one detail; **Share them** marks the rest in one go, and you can add a note for your client before you choose **Share with client**.
 
-> Issuing doesn't email or notify anyone, so tell your client yourself when there's something new to look at.
+> Sharing doesn't email or notify anyone, so tell your client yourself when there's something new to look at.
 
-Once a room is issued, your client's copy stays as it was. Changing a detail, or a palette finish it uses, changes your schedule and not theirs until you issue the room again, and so does hiding a detail: turning off its eye takes it out of the next issue, not out of the revision they already have. The room's tab shows its revision, or **Not issued yet**, and the date it was last issued sits above its groups. A shared detail that has changed since then, or that has been shared since then, carries a **not issued** chip.
+To check what your client has right now, [preview their portal](/docs/client-portal-setup/#previewing-as-the-client) and open **Finishes** there.
 
-**Revoke rev B**, in the room's menu, deletes that latest revision. Your client goes back to the one before, or the room leaves their portal if there isn't one. A revoked revision can't be brought back, but you can issue the room again, and the new issue reuses its letter. Deleting a room that has been issued removes its revisions and takes it off the portal too.
+## Sending updates
 
-To check what your client has right now, turn on **Client view** at the top of the page, which swaps the schedule for their Finishes page.
+Once a room is shared, the line above its groups says which version your client has, for example **Your client has the 7 Nov version**, and anything you change afterwards waits until you send it. A shared detail with a new value, label or note counts as an update, and so does a detail you've shared since, or one you've hidden, cleared or deleted since; details that aren't shared never count, because your client wouldn't see them either way.
 
-Sharing, issuing, revoking and **Client view** need the Client portal [permission](/docs/roles-and-permissions/). Without it you can work on the schedule as usual and shared details show a plain eye, but you can't change what's shared or delete a room that has been issued. On a completed project nothing more can be issued or revoked, and what's already issued stays on the portal.
+Changing a palette finish counts in every shared room that uses it, which is why opening a finish on the palette tells you how many shared rooms it's in. The line above a room's groups then ends with **Send 3 updates**, which opens the panel; with nothing waiting it says **See what you've sent** instead.
+
+Under its updates, the panel of a shared room also says how many details are shared and how many aren't, with **Hide** and **Share** on each detail in those lists, so you can change what goes out from a phone as easily as from the schedule. The panel lists each update with what it was and what it is now, and pointing at one picks out its detail in the schedule. While the panel is open, every detail with an update carries a small dot, and so does the tab of every room with updates waiting. **Undo** puts a detail back the way your client has it, so one shared since is hidden again and one changed, hidden or cleared since gets its old value, label and note back. It isn't offered where the update came from somewhere else, such as a palette finish you edited or a group you renamed, because putting the detail back can't undo that, so change the finish or the group back instead.
+
+**Send to client** sends everything listed, with a note if you add one, and your client's portal shows the room as it is now with your note. They see only the latest version, so tell them what changed in the note if it matters.
+
+**Sent before**, at the bottom of the panel, lists everything you've shared or sent for the room with its date, who sent it and its note, and each one opens into its own list of updates. **Take back** on the latest one returns your client to the version before it, or takes the room off their portal if it was the first share; your schedule doesn't change, so you can send it again whenever you like. Deleting a room that's been shared takes it off the portal too.
+
+Sharing, sending, **Undo** and **Take back** need the Client portal [permission](/docs/roles-and-permissions/). Without it you can work on the schedule as usual and see what's waiting to be sent, and the panel shows which details are shared, but you can't change what's shared or delete a room that's been shared. On a completed project nothing more can be shared, sent or taken back, and what your client already has stays on their portal.

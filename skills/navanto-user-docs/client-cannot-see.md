@@ -20,7 +20,7 @@ Everything on the portal is controlled by one rule on your side, so when a clien
 - **Snagging** — the portal's Snagging page appears once the project is moved to [Snagging](/docs/snagging/), and stays on a completed one. There is no picking which snags clients see — they get the same list as you, minus assignees and attachments.
 - **A variation** — clients see every [variation](/docs/variations/), but one still being priced shows as awaiting price with no amount until it is sent.
 - **A selection** — a [selection](/docs/selections/) reaches the portal only once it has been sent to the client; drafts never appear.
-- **A finish or a room** — the portal shows only what has been [issued](/docs/finishes/#issuing-a-room-to-your-client), never your live schedule. A room that hasn't been issued, or whose only revision was revoked, doesn't appear at all; a detail appears only if it had a value and was marked **Visible to client** when the room was last issued, and later changes wait for the next issue. **Client view** on the project's Finishes page shows exactly what they have.
+- **A finish or a room** — the portal shows only what has been [shared](/docs/finishes/#sharing-a-room-with-your-client), never your live schedule. A room that hasn't been shared, or whose only update was taken back, doesn't appear at all; a detail appears only if it had a value and was marked **Visible to client** when the room was last shared or updated, and later changes wait until you send them. The portal [preview](/docs/client-portal-setup/#previewing-as-the-client) shows exactly what they have under **Finishes**.
 - **Tasks and approvals** — never on the portal, by design.
 
 ## If the whole portal is the problem

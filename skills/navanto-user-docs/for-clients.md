@@ -4,7 +4,7 @@ description: A guide for clients to signing in, following progress, and making d
 section: client-portal
 order: 2
 audience: clients
-date: 2026-08-29
+date: 2026-11-07
 ---
 
 Your builder runs your project on Navanto, and the portal is your view of it: the progress, the drawings and documents, the contract, and the decisions that are yours to make.
@@ -24,7 +24,7 @@ The temporary password lasts 7 days. If it has expired, or you cannot find the e
 - **Calendar**: dates your builder has marked for you.
 - **Snagging**: once the build reaches snagging, the list of items being put right.
 - **Contract**: your agreed contract items, any variations, and your selections.
-- **Finishes**: the finishes your builder has issued to you, room by room.
+- **Finishes**: the finishes your builder has shared with you, room by room.
 - **Settings**, reached by clicking your name at the bottom of the sidebar: your details, password, notification preferences and your data export.
 
 You are emailed when a site update is first sent to you. Your builder can correct one, or take one down, after sending; the portal always shows the current state.
@@ -51,9 +51,9 @@ If you give your builder an answer in person or by phone, they can record it for
 
 ## Your finishes
 
-**Finishes** is there to read: each room your builder has issued to you, with its finishes shown by photo or colour, name and reference, its written specifications, and any note your builder added. Each room shows its revision and the date it was issued.
+**Finishes** is there to read: each room your builder has shared with you, with its finishes shown by photo or colour, name and reference, its written specifications, and any note your builder added with their latest update. Each room shows the date it was last shared.
 
-You are looking at the latest issue rather than your builder's working schedule, so it changes only when your builder issues that room again, and they may still be deciding details you can't see here. You aren't emailed when a room is issued, so your builder will tell you when there's something new. A room appears once it has been issued; if your builder takes an issue back, you see the one before it, or the room goes until it's issued again.
+You are looking at what your builder last shared rather than their working schedule, so it changes only when they send an update, and they may still be deciding details you can't see here. You aren't emailed when a room is shared or updated, so your builder will tell you when there's something new. A room appears once it has been shared; if your builder takes an update back, you see the version before it, or the room goes until it's shared again.
 
 ## When the project finishes
 
