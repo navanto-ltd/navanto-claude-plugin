@@ -43,6 +43,8 @@ Every order across every project lives under **Orders** in the sidebar. Each sig
 
 > Sending locks the order's lines. The order moves to **Sent**, records who it went to and when, and keeps the exact PDF that went out - downloadable from the order and filed under the project's Orders folder on the [Files](/docs/files/) page.
 
+To send the supplier something with the order, such as their own order form or a photo, add it under **Attachments** on the order. An order can carry up to three files of up to 8MB each, and they go with the PDF every time the order is sent. You can add or remove them while the order is a Draft or Sent.
+
 You can send an order again, and each send is recorded. **Download PDF** works on a Draft too, if you'd rather send it yourself.
 
 ## Tracking an order
@@ -87,7 +89,7 @@ An order that has reached a supplier is a permanent record: it can be cancelled 
 
 ## Asking NavantoAI
 
-NavantoAI can read orders for you and keep them up to date: ask what's being delivered to site this week or what needs chasing, have it log a call, email or note against an order, and record that a supplier has confirmed an order or that it has been delivered. When it confirms an order it can put the delivery on the timeline too, and it can move a confirmed order's delivery to another track or take it off. Raising, editing, sending and cancelling orders stay on the order page because they may involve emailing suppliers.
+NavantoAI can read orders for you and keep them up to date: ask what's being delivered to site this week or what needs chasing, have it log a call, email or note against an order, and record that a supplier has confirmed an order or that it has been delivered. When it confirms an order it can put the delivery on the timeline too, and it can move a confirmed order's delivery to another track or take it off. It can read the files attached to an order and the PDFs that were sent. Raising, editing, sending and cancelling orders stay on the order page because they may involve emailing suppliers.
 
 ## Who can do this
 

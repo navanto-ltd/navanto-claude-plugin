@@ -31,6 +31,8 @@ Replies inherit the visibility of the thread they're in: inside a client-visible
 
 In the feed, a client-visible post reads **posted to the client** instead of *commented*, with a small green eye on the author's avatar and a green outline on the card. Attachments on them land in the project's **Client Portal** folder, same as any portal post. You can also post as the client from the [portal preview](/docs/client-portal-setup/) — it just isn't the only way in.
 
+The newest client-visible post in the feed, and the newest post in a client thread, tells you whether your client has seen it: **Not seen yet** until they have, then **Seen by** with their name and how long ago; hover over it for the exact time. Seen means they had the project's posts open in their portal, and opening a post means they've seen everything before it too; reading the notification email doesn't count. You see the same on the iPhone app and in the portal preview, and your client never sees it.
+
 On a [completed project](/docs/projects/) the conversation stays readable but closed — no new posts or replies.
 
 ## Deleting a post
