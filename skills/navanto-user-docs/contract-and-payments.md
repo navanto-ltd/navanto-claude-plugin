@@ -11,7 +11,7 @@ The Approved tab of a project's Contract holds what the client has agreed to pay
 
 ## Contract items
 
-**New contract item** creates a line with a title, a price excluding VAT, a VAT rate, a description and an attachment. Items from an approved [variation](/docs/variations/) or a signed-off [selection](/docs/selections/) arrive here on their own, badged with where they came from. Their price and VAT rate are what the client agreed, so they can't be changed here; you can still edit its title, description and attachment, and you give it a payment schedule, or for a credit from an omitted item, choose the payment it applies to.
+**New contract item** creates a line with a title, a price excluding VAT, a VAT rate, a description and up to five attachments, such as the quote and the signed contract. Items from an approved [variation](/docs/variations/) or a signed-off [selection](/docs/selections/) arrive here on their own, badged with where they came from. Their price and VAT rate are what the client agreed, so they can't be changed here; you can still edit its title, description and attachments, and you give it a payment schedule, or for a credit from an omitted item, choose the payment it applies to.
 
 The VAT rate is 20%, 5%, 0% or No VAT. 0% and No VAT are not the same thing: 0% applies VAT at the zero rate, No VAT means the line sits outside VAT; pick the one your accountant would.
 
