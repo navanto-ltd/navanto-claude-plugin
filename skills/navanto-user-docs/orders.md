@@ -27,13 +27,13 @@ An order can be pointed at a selection afterwards, whether or not it started fro
 
 Linking an order to a signed-off selection - or raising one from it and then changing a quantity or a unit cost - doesn't change what your client signed off: same price, same approved [contract](/docs/contract-and-payments/) item. What it changes is what you spend against that price, so the selection's summary rail shows its margin after orders next to the margin it was signed off at, and the project's Selections list uses the after-orders figure. The order itself carries no margin - it never shows client prices.
 
-Each item counts what you have ordered at the order's cost, plus the selection's snapshot cost for whatever is still to order; an order line that isn't one of the selection's items counts as extra spend on top. Every order that hasn't been cancelled counts, drafts included.
+Each item counts what you have ordered at the order's cost, plus the selection's snapshot cost for whatever is still to order; an order line that isn't one of the selection's items counts as extra spend on top. A line priced TBC counts at the selection's snapshot cost, or adds nothing if it isn't one of the selection's items. Every order that hasn't been cancelled counts, drafts included.
 
 ## The order page
 
 An order holds its supplier, project and any linked selection, a delivery address and contact, an optional required-by date, the buyer contact, a message to the supplier, and its lines. Everything saves as you type while the order is a Draft. Removed a line by mistake, or need something extra? **Add line** under the lines opens the product picker, showing that supplier's products; the line arrives with the product's code, unit and cost filled in. For something that isn't in the supplier's catalogue, such as a fitting charge, **Add custom line** in the picker gives you a line to describe yourself; if your search found nothing, it offers to use what you typed.
 
-A custom line, or a bespoke product, arrives without a cost: enter its unit cost on the order. An order can't be sent or marked as sent until every line has one.
+A custom line, or a bespoke product, arrives without a cost: enter its unit cost on the order. If you don't know a price yet, leave it blank and send the order anyway. The line shows as TBC on the order and the PDF, and the PDF leaves the total off until every line is priced. The suggested email asks the supplier to confirm the TBC prices; edit it if you'd rather not.
 
 Every order across every project lives under **Orders** in the sidebar. Each signed-off selection also links to its own orders.
 
